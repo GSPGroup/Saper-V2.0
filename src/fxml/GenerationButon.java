@@ -8,7 +8,7 @@ public class GenerationButon {
 		String text;
 		GeneratedFXML GB = new GeneratedFXML();
 		// для генераціїї @FXML
-		try (FileWriter writer = new FileWriter("D:/Dropbox/GSP/Saper/src/logic/FXMLButon.java", false)) {
+		try (FileWriter writer = new FileWriter("D:/Dropbox/GSP/Saper-V2.0/src/logic/FXMLButon.java", false)) {
 			 text = "package logic;"+ "\r\n"
 					 +"	 import javafx.fxml.FXML;" + "\r\n"
 					 +"	 import objects.Button;" + "\r\n"
@@ -31,7 +31,7 @@ public class GenerationButon {
 		GeneratedFXML GB = new GeneratedFXML();
 		String text;
 		// для генераціїї Button
-		try (FileWriter writer = new FileWriter("D:/Dropbox/GSP/Saper/src/logic/Buton.java", false)) {
+		try (FileWriter writer = new FileWriter("D:/Dropbox/GSP/Saper-V2.0/src/logic/Buton.java", false)) {
 			text = "package logic;"+ "\r\n"
 					+"import objects.Button;" + "\r\n"
 					+"public class Buton {" + "\r\n";
@@ -55,7 +55,7 @@ public class GenerationButon {
 		GeneratedFXML GB = new GeneratedFXML();
 		String text;
 		// для генераціїї Button
-		try (FileWriter writer = new FileWriter("D:/Dropbox/GSP/Saper/src/controllers/MainController.java", false)) {
+		try (FileWriter writer = new FileWriter("D:/Dropbox/GSP/Saper-V2.0/src/controllers/MainController.java", false)) {
 			text = "package controllers;"+ "\r\n"
 					+"import fxml.GeneratedFXML;"+ "\r\n"
 					+"import javafx.fxml.FXML;"+ "\r\n"

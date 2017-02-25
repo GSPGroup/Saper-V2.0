@@ -19,7 +19,7 @@ public class GeneratedFXML {
 		double prefHeight = Goriz*20.0+20;
 		double prefWidth = Verti*20.0+10+100;
 		// для генераціїї поля
-		try (FileWriter writer = new FileWriter("D:/Dropbox/GSP/Saper-V2.0/src/fxml/main.fxml", false)) {
+		try (FileWriter writer = new FileWriter("D:/Dropbox/GSP/Saper-V2.0/src/fxml/main11x13.fxml", false)) {
 			String text;
 			 text= "<?xml version="+ "\"" +1.0+ "\"" +" encoding="+
 			 "\"" +"UTF-8"+ "\"" +"?>" + "\r\n"
@@ -31,17 +31,13 @@ public class GeneratedFXML {
 			 + " <?import java.lang.*?>"+ "\r\n"
 			 + " <?import javafx.scene.control.*?>"+ "\r\n"
 			 + " <?import javafx.scene.layout.*?>"+ "\r\n"
-			 + "<Pane maxHeight="+ "\"" +prefHeight+ "\"" +" maxWidth="+ "\"" +prefWidth+ "\"" 
-			 +" minHeight="+ "\"" +"20.0"+ "\"" +" minWidth="+ "\"" +"20.0"+ "\"" 
-			 +" prefHeight="+ "\"" + prefHeight + "\"" +" prefWidth="+ "\"" +prefWidth+ "\"" 
-			 +" stylesheets="+ "\"" +"/css/MainWindow.css"+ "\"" +" xmlns="+ "\"" +"http://javafx.com/javafx/8"+ "\"" 
-			 +" xmlns:fx="+ "\"" +"http://javafx.com/fxml/1"+ "\"" +" fx:controller="+ "\"" +"controllers.MainController"+ "\"" +">"+ "\r\n"
-			 +" <children>"+ "\r\n"
-			 +" <Button fx:id="+ "\"" +"restartButton"+ "\"" +" layoutX="+ "\"" +"426.0"+ "\"" +" layoutY="+ "\"" +"158.0"+ "\"" +" mnemonicParsing="+ "\"" +"false"+ "\"" +" text="+ "\"" +"Restart"+ "\"" +" />"+ "\r\n"
-			 +" <VBox layoutX="+ "\"" +"2.0"+ "\"" +" layoutY="+ "\"" +"27.0"+ "\"" +" prefHeight="+ "\"" +"407.0"+ "\"" +" prefWidth="+ "\"" +"412.0"+ "\"" +">"+ "\r\n"
-			 +" <children>"+ "\r\n"
-			 +" <GridPane prefHeight="+ "\"" +"220.0"+ "\"" +" prefWidth="+ "\"" +"220.0"+ "\"" +">"+ "\r\n"
-			 +" <columnConstraints> "+ "\r\n";
+			 + " <Pane fx:id="+ "\"" +"MenuBar"+ "\"" +" maxHeight="+ "\"" +"433.0"+ "\"" +" maxWidth="+ "\"" +"510.0"+ "\"" +" minHeight="+ "\"" +"20.0"+ "\"" +" minWidth="+ "\"" +"20.0"+ "\"" +" prefHeight="+ "\"" +"433.0"+ "\"" +" prefWidth="+ "\"" +"510.0"+ "\"" +" stylesheets="+ "\"" +"/css/MainWindow.css"+ "\"" +" xmlns="+ "\"" +"http://javafx.com/javafx/8"+ "\"" +" xmlns:fx="+ "\"" +"http://javafx.com/fxml/1"+ "\"" +" fx:controller="+ "\"" +"controllers.MainController"+ "\"" +">"+ "\r\n"
+				 + " <children>"+ "\r\n"
+			+ " <Button fx:id="+ "\"" +"restartButton"+ "\"" +" layoutX="+ "\"" +"426.0"+ "\"" +" layoutY="+ "\"" +"158.0"+ "\"" +" mnemonicParsing="+ "\"" +"false"+ "\"" +" text="+ "\"" +"Restart"+ "\"" +" />"+ "\r\n"
+			+ " <VBox layoutX="+ "\"" +"2.0"+ "\"" +" layoutY="+ "\"" +"27.0"+ "\"" +" prefHeight="+ "\"" +"407.0"+ "\"" +" prefWidth="+ "\"" +"412.0"+ "\"" +">"+ "\r\n"
+			+ " <children>"+ "\r\n"
+			+ " <GridPane prefHeight="+ "\"" +"220.0"+ "\"" +" prefWidth="+ "\"" +"220.0"+ "\"" +">"+ "\r\n"
+			+ " <columnConstraints> "+ "\r\n";
 			 writer.write(text);
 			 for (int i = 1; i < Goriz+1;) {
 					 text = " <ColumnConstraints hgrow="+ "\"" +"SOMETIMES"+ "\"" +" minWidth="+ "\"" +"20.0"+ "\"" +" prefWidth="+ "\"" +"20.0"+ "\"" +" />"+ "\r\n";
@@ -58,7 +54,7 @@ public class GeneratedFXML {
 				}
 			 text= " </rowConstraints>"+ "\r\n"
              +" <children>"+ "\r\n"
-	    	 +"<Button fx:id="+ "\"" +"b1"+ "\"" +" maxHeight="+ "\"" +"20.0"+ "\"" +" maxWidth="+ "\"" +"20.0"+ "\"" +" minHeight="+ "\"" +"20.0"+ "\"" 
+	    	 +"<Button fx:id="+ "\""+1 +"b1"+ "\"" +" maxHeight="+ "\"" +"20.0"+ "\"" +" maxWidth="+ "\"" +"20.0"+ "\"" +" minHeight="+ "\"" +"20.0"+ "\"" 
 			 +" minWidth="+ "\"" +"20.0"+ "\"" +" mnemonicParsing="+ "\"" +"false"+ "\"" +" onMouseClicked="+ "\"" +"#mouseClick"+ "\"" +" prefHeight="+ "\"" 
 			 +"20.0"+ "\"" +" prefWidth="+ "\"" +"20.0"+ "\"" +" />"+ "\r\n";
 			 writer.write(text);
@@ -70,14 +66,14 @@ public class GeneratedFXML {
 							if (Width==0) {
 							 text=  "\n";
 							
-							}else { text=  "<Button fx:id="+ "\"" +curentID+ "\"" +" layoutX="+ "\"" +"10.0"+ "\"" +" layoutY="+ "\"" +"10.0"+ "\"" 
+							}else { text=  "<Button fx:id="+ "\""+1 +curentID+ "\"" +" layoutX="+ "\"" +"10.0"+ "\"" +" layoutY="+ "\"" +"10.0"+ "\"" 
 									+" maxHeight="+ "\"" +"20.0"+ "\"" +" maxWidth="+ "\"" +"20.0"+ "\"" +" minHeight="+ "\"" +"20.0"+ "\"" 
 									 +" minWidth="+ "\"" +"20.0"+ "\"" +" mnemonicParsing="+ "\"" +"false"+ "\"" +" onMouseClicked="+ "\"" 
 							+"#mouseClick"+ "\"" +" prefHeight="+ "\"" +"20.0"+ "\"" +" prefWidth="+ "\"" +"20.0"+ "\"" 
 									 +" GridPane.columnIndex="+ "\"" +Width+ "\"" +" />"+ "\r\n";}
 //							
 						}else if (Width==0) {
-							 text=  "<Button fx:id="+ "\"" +curentID+ "\"" +" layoutX="+ "\"" +"10.0"+ "\"" +" layoutY="+ "\"" +"10.0"+ "\"" 
+							 text=  "<Button fx:id="+ "\""+1 +curentID+ "\"" +" layoutX="+ "\"" +"10.0"+ "\"" +" layoutY="+ "\"" +"10.0"+ "\"" 
 										+" maxHeight="+ "\"" +"20.0"+ "\"" +" maxWidth="+ "\"" +"20.0"+ "\"" +" minHeight="+ "\"" +"20.0"+ "\"" 
 												 +" minWidth="+ "\"" +"20.0"+ "\"" +" mnemonicParsing="+ "\"" +"false"+ "\"" +" onMouseClicked="+ "\"" 
 										+"#mouseClick"+ "\"" +" prefHeight="+ "\"" +"20.0"+ "\"" +" prefWidth="+ "\"" +"20.0"+ "\"" 
@@ -85,7 +81,7 @@ public class GeneratedFXML {
 							
 							
 						}else {
-						 text=  "<Button fx:id="+ "\"" +curentID+ "\"" +" layoutX="+ "\"" +"10.0"+ "\"" +" layoutY="+ "\"" +"10.0"+ "\"" 
+						 text=  "<Button fx:id="+ "\""+1 +curentID+ "\"" +" layoutX="+ "\"" +"10.0"+ "\"" +" layoutY="+ "\"" +"10.0"+ "\"" 
 									+" maxHeight="+ "\"" +"20.0"+ "\"" +" maxWidth="+ "\"" +"20.0"+ "\"" +" minHeight="+ "\"" +"20.0"+ "\"" 
 											 +" minWidth="+ "\"" +"20.0"+ "\"" +" mnemonicParsing="+ "\"" +"false"+ "\"" +" onMouseClicked="+ "\"" 
 									+"#mouseClick"+ "\"" +" prefHeight="+ "\"" +"20.0"+ "\"" +" prefWidth="+ "\"" +"20.0"+ "\"" 
