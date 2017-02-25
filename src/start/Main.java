@@ -10,7 +10,6 @@ import javafx.stage.Stage;
 import logic.DrawField;
 
 public class Main extends Application {
-	  boolean state = true;
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		GenerationButon.GenerationButon();
@@ -19,7 +18,7 @@ public class Main extends Application {
 				
 		DrawField DrField = new DrawField();
 		DrField.makeField();
-		Parent root = FXMLLoader.load(getClass().getResource("../fxml/main.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("/fxml/main.fxml"));
 		primaryStage.setTitle("MINER");
 		Scene scene = new Scene(root);
 		primaryStage.close();

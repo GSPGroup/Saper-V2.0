@@ -19,7 +19,7 @@ public class GeneratedFXML {
 		double prefHeight = Goriz*20.0+20;
 		double prefWidth = Verti*20.0+10+100;
 		// для генераціїї поля
-		try (FileWriter writer = new FileWriter("D:/Dropbox/GSP/Saper/src/fxml/main.fxml", false)) {
+		try (FileWriter writer = new FileWriter("D:/Dropbox/GSP/Saper-V2.0/src/fxml/main.fxml", false)) {
 			String text;
 			 text= "<?xml version="+ "\"" +1.0+ "\"" +" encoding="+
 			 "\"" +"UTF-8"+ "\"" +"?>" + "\r\n"
@@ -38,33 +38,9 @@ public class GeneratedFXML {
 			 +" xmlns:fx="+ "\"" +"http://javafx.com/fxml/1"+ "\"" +" fx:controller="+ "\"" +"controllers.MainController"+ "\"" +">"+ "\r\n"
 			 +" <children>"+ "\r\n"
 			 +" <Button fx:id="+ "\"" +"restartButton"+ "\"" +" layoutX="+ "\"" +"426.0"+ "\"" +" layoutY="+ "\"" +"158.0"+ "\"" +" mnemonicParsing="+ "\"" +"false"+ "\"" +" text="+ "\"" +"Restart"+ "\"" +" />"+ "\r\n"
-//			 +"      <MenuBar>"+ "\r\n"
-//			 +"        <menus>"+ "\r\n"
-//			 +"      <Menu mnemonicParsing="+ "\"" +"false"+ "\"" +" text="+ "\"" +"File"+ "\"" +">"+ "\r\n"
-//			 +"     <items>"+ "\r\n"
-//		     +"       <MenuItem mnemonicParsing="+ "\"" +"false"+ "\"" +" text="+ "\"" +"Close"+ "\"" +" />"+ "\r\n"
-//			 +"   </items>"+ "\r\n"
-//			 +"          </Menu>"+ "\r\n"
-//			 +"          <Menu mnemonicParsing="+ "\"" +"false"+ "\"" +" text="+ "\"" +"Edit"+ "\"" +">"+ "\r\n"
-//			 +"            <items>"+ "\r\n"
-//			 +"              <MenuItem mnemonicParsing="+ "\"" +"false"+ "\"" +" text="+ "\"" +"Delete"+ "\"" +" />"+ "\r\n"
-//			 +"            </items>"+ "\r\n"
-//			 +"          </Menu>"+ "\r\n"
-//			 +"          <Menu mnemonicParsing="+ "\"" +"false"+ "\"" +" text="+ "\"" +"Help"+ "\"" +">"+ "\r\n"
-//			 +"            <items>"+ "\r\n"
-//			 +"              <MenuItem mnemonicParsing="+ "\"" +"false"+ "\"" +" text="+ "\"" +"About"+ "\"" +" />"+ "\r\n"
-//			 +"            </items>"+ "\r\n"
-//			 +"         </Menu>"+ "\r\n"
-//			 +"       </menus>"+ "\r\n"
-//			 +"      </MenuBar>"+ "\r\n"
 			 +" <VBox layoutX="+ "\"" +"2.0"+ "\"" +" layoutY="+ "\"" +"27.0"+ "\"" +" prefHeight="+ "\"" +"407.0"+ "\"" +" prefWidth="+ "\"" +"412.0"+ "\"" +">"+ "\r\n"
 			 +" <children>"+ "\r\n"
 			 +" <GridPane prefHeight="+ "\"" +"220.0"+ "\"" +" prefWidth="+ "\"" +"220.0"+ "\"" +">"+ "\r\n"
-			 +" <columnConstraints> "+ "\r\n"
-			 +" <children>"+ "\r\n"
-			 +" <VBox layoutX="+ "\"" +"7.0"+ "\"" +" layoutY="+ "\"" +"11.0"+ "\"" +" prefHeight="+ "\"" +"400.0"+ "\"" +" prefWidth="+ "\"" +"400.0"+ "\"" +">"+ "\r\n"
-			 +" <children>"+ "\r\n"
-			 +" <GridPane prefHeight="+ "\"" +prefHeight+ "\"" +" prefWidth="+ "\"" +prefHeight+ "\"" +">"+ "\r\n"
 			 +" <columnConstraints> "+ "\r\n";
 			 writer.write(text);
 			 for (int i = 1; i < Goriz+1;) {

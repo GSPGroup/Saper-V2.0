@@ -9,15 +9,15 @@ import logic.DrawField;
 public class MainController {
 	
 
-@FXML
- public static Button[] b;
-
-static{
-	for (int i = 1; i <100 ; i++) {
-		b[i]=new Button();
-		
-	}
-}
+//@FXML
+// public static Button[] b;
+//
+//static{
+//	for (int i = 1; i <100 ; i++) {
+//		b[i]=new Button();
+//		
+//	}
+//}
 	
 	
 @FXML
